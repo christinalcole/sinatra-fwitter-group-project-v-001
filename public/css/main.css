@@ -173,6 +173,11 @@ button a{
   padding: 5px;
 }
 
+.form-container p{
+  line-height: 1.5em;
+  font-size: 0.9em;
+}
+
 input{
   font-size: 1em;
 }
