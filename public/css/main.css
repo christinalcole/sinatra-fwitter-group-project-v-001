@@ -78,11 +78,26 @@ input, select { vertical-align: middle; }
 .color-complement-3 { color: #00C4C4 }
 .color-complement-4 { color: #008484 }
 
-/* global styles */
+/* global layout */
 body {
   font-size: 100%;
   margin: 20px;
   padding: 20px;
+}
+
+#user-box {
+  background-color: #FFAA63;
+  border-bottom: 3px solid #DC6400;
+  margin: 2px 0px;
+  padding:  1px 15px;
+}
+
+#user-box h2 {
+  font-family: 'Asul', sans-serif;
+  font-size: 2em;
+  color: #FF7502;
+  text-shadow: -2px 3px 7px #DC6400;
+  text-align: right;
 }
 
 footer {
