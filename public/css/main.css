@@ -158,3 +158,44 @@ button a{
   text-shadow: 0px 1px 1px #6990E8;
   text-decoration: none;
 }
+
+/* Form styles */
+.form-container{
+  margin: 10px;
+  padding: 20px;
+  line-height: 1.5em;
+}
+.form-container h1{
+  font-family: 'Asul', sans-serif;
+  font-size: 3em;
+  color: #1956E2;
+  margin: 0px 2px 35px 2px;
+  padding: 5px;
+}
+
+input{
+  font-size: 1em;
+}
+
+input:focus, input:hover{
+  background-color: #FFCB63;
+}
+
+input#submit{
+  background-color: #073293;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+  color: #4173E4;
+  border: 2px solid #0945CE;
+  border-radius: 10px;
+  margin: 0px 0px 25px 0px;
+  padding: 5px 10px;
+}
+
+input#submit:hover{
+  background-color: #6990E8;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+  color: #4173E4;
+  border: 2px solid #0945CE;
+}
