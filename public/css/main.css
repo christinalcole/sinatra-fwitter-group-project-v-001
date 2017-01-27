@@ -78,9 +78,38 @@ input, select { vertical-align: middle; }
 .color-complement-3 { color: #00C4C4 }
 .color-complement-4 { color: #008484 }
 
-
+/* global styles */
 body {
   font-size: 100%;
+  margin: 20px;
+  padding: 20px;
+}
+
+footer {
+  background-color: #4173E4;
+  border: 3px outset #0945CE;
+  margin: 0px;
+  padding: 5px;
+  text-align: center;
+}
+
+footer h6 {
+  font-family: 'Asul', sans-serif;
+  font-size: 0.7em;
+  color: #073293;
+}
+
+#logo-box {
+  background-color: #FF7502;
+  border: 3px outset #FF9033;
+  padding: 15px;
+}
+
+#logo-box h1 {
+  font-family: 'Asul', sans-serif;
+  font-size: 6em;
+  color: #FF9033;
+  text-shadow: -4px 4px 4px #FFAA63;
 }
 
 h1 {
