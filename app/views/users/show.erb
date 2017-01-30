@@ -1,4 +1,6 @@
 <h1> Here are all the tweets you have posted: </h1>
 <ul>
- <li> <%= current_user.tweet.content %> </li>
+  <% current_user.tweets.each do |tweet| %>
+    <li><%= tweet.content %> </li>
+    <% end %>
 </ul>
