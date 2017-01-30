@@ -101,12 +101,20 @@ body {
   clear:both;
 }
 
+#color-box-1{
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: #02DBDB;
+  width: 100px;
+  height: 100px;
+}
 /* navigation */
 nav ul {
     list-style-type: none;
     margin: 2px 0;
     padding: 5px;
-    width: 300px;
+    width: 335px;
     background-color: #FFCB63;
 }
 

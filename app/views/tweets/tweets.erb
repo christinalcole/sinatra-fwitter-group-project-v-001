@@ -5,19 +5,25 @@
 <div class="col-1">
   <nav>
     <ul>
-      <li><a href='/tweets/new'>Tweet</a></li>
-      <li><a href='/users/:slug'>User Profile</a></li>
-      <li><a href='/logout'>Logout</a></li>
+      <li><a href='/tweets/new'>TWEET</a></li>
+      <li><a href='/users/:slug'>USER PROFILE</a></li>
+      <li><a href='/logout'>LOGOUT</a></li>
     </ul>
   </nav>
 </div> <!-- end of navigation col !-->
 
-<div class="col-2">
-  <h2> These are all tweets posted by users:</h2>
-  <ul>
+<div class="col-2" id="tweet-content">
+  <h2>These are all tweets posted by users:</h2>
+  <!-- <ul> -->
     <%  @tweet.each do |tweet| %>
-    <li> <%= tweet.content %> </li>
+    <p><%= tweet.content %>  <span style="font-size:0.8em">-- <%= User.find_by_id(tweet.user_id).username %></span></p>
+    <!-- <li> <%= tweet.content %> </li> -->
     <% end %>
-  <ul>
-  <br></br>
+  <!-- <ul> -->
+  <!-- <br></br> -->
+</div>
+
+<div id="color-box-1">
+</div>
+<div class="col-1 clear" id="logo-box">
 </div>
