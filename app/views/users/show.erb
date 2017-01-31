@@ -1,6 +1,27 @@
-<h1> Here are all the tweets you have posted: </h1>
-<ul>
-  <% current_user.tweets.each do |tweet| %>
-    <li><%= tweet.content %> </li>
+<div id="user-box">
+  <h2>Welcome, <%= current_user.username.capitalize %></h2>
+</div>
+
+<div class="col-1">
+  <nav>
+    <ul>
+      <li><a href='/tweets/new'>TWEET</a></li>
+      <li><a href='/tweets'>RETURN TO HOME</a></li>
+      <li><a href='/logout'>LOGOUT</a></li>
+    </ul>
+  </nav>
+</div> <!-- end of navigation col !-->
+
+<div class="col-2" id="tweet-content">
+  <h2>Here are all of the tweets you have posted:</h2>
+    <% current_user.tweets.each do |tweet| %>
+      <p><%= tweet.content %></p>
     <% end %>
-</ul>
+</div>
+
+<div id="color-col-1"></div>
+<div  id="color-col-2"></div>
+<div  id="color-col-3"></div>
+<div  id="color-col-4"></div>
+<div  id="color-col-5"></div>
+<div  id="color-col-6"></div>
