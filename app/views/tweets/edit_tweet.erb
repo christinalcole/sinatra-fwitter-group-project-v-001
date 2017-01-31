@@ -1,11 +1,15 @@
-<h1> Edit a Single Tweet </h1>
-<p> <%= @tweet.content %> </p>
+<div id="user-box">
+  <h2>Welcome, <%= current_user.username.capitalize %></h2>
+</div>
+
+<div class="form-container">
+  <h1>Edit This Tweet</h1>
+  <p> original tweet: <%= @tweet.content %> </p><br>
 
 
-<form method="POST" action="/tweets/<%= @tweet.id %>">
-  <input type="hidden" name="_method" value="patch">
-  <input type="text" name="content" id="content" value="<%= @tweet.content %>">
-  <input type="submit" value="submit">
-</form>
-
- 
+  <form method="POST" action="/tweets/<%= @tweet.id %>">
+    <input type="hidden" name="_method" value="patch">
+    edited tweet: <input type="text" name="content" id="content" value="<%= @tweet.content %>"><br></br>
+    <input type="submit" id="submit" value="submit">
+  </form>
+</div>
