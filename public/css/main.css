@@ -103,11 +103,83 @@ body {
 
 #color-box-1{
   position: absolute;
-  top: 20px;
-  right: 20px;
-  background-color: #02DBDB;
+  top: 67px;
+  right: 50px;
+  background-color: #073293;
   width: 100px;
   height: 100px;
+}
+
+#color-box-2{
+  position: absolute;
+  top: 67px;
+  right: 158px;
+  background-color: #00C4C4;
+  width: 100px;
+  height: 100px;
+}
+
+#color-box-3{
+  position: absolute;
+  top: 67px;
+  right: 359px;
+  background-color: #6990E8;
+  width: 100px;
+  height: 100px;
+}
+
+#color-col-1 {
+  position: absolute;
+  top: 382px;
+  left: 40px;
+  background-color: #00C4C4;
+  width: 30px;
+  height: 268px;
+}
+
+#color-col-2 {
+  position: absolute;
+  top: 382px;
+  left: 77px;
+  background-color: #6990E8;
+  width: 75px;
+  height: 268px;
+}
+
+#color-col-3 {
+  position: absolute;
+  top: 382px;
+  left: 160px;
+  background-color: #FFAA63;
+  width: 105px;
+  height: 268px;
+}
+
+#color-col-4 {
+  position: absolute;
+  top: 382px;
+  left: 273px;
+  background-color: #FF7502;
+  width: 55px;
+  height: 268px;
+}
+
+#color-col-5 {
+  position: absolute;
+  top: 382px;
+  left: 335px;
+  background-color: #DC6400;
+  width: 15px;
+  height: 268px;
+}
+
+#color-col-6 {
+  position: absolute;
+  top: 382px;
+  left: 356px;
+  background-color: #073293;
+  width: 27px;
+  height: 268px;
 }
 /* navigation */
 nav ul {
@@ -133,6 +205,22 @@ nav li a:hover {
     color: #FFCB63;
 }
 
+#tweet-content {
+  border: 2px solid #008484;
+  margin-top: 2px;
+  padding: 5px 8px 5px 10px;
+  overflow-y: scroll;
+  height: 396px;
+  /*font-family: 'Open Sans', sans-serif;
+  font-size: 1.6em;*/
+}
+
+#tweet-content h2{
+  font-family: 'Open Sans', sans-serif;
+  color: #073293;
+  font-size: 2em;
+  margin-bottom: 5px;
+}
 
 
 #user-box {
