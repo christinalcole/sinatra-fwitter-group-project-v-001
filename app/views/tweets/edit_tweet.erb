@@ -4,8 +4,8 @@
 
 <div class="form-container">
   <h1>Edit This Tweet</h1>
-  <p> original tweet: <%= @tweet.content %> </p><br>
 
+  <p> original tweet: <%= @tweet.content %> </p><br>
 
   <form method="POST" action="/tweets/<%= @tweet.id %>">
     <input type="hidden" name="_method" value="patch">

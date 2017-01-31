@@ -85,6 +85,51 @@ body {
   padding: 20px;
 }
 
+h1 {
+  font-family: 'Asul', sans-serif;
+  font-size: 5em;
+  color: #1956E2;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.6em;
+  color: #000;
+}
+
+button{
+  background-color: #073293;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+  color: #4173E4;
+  border: 2px solid #0945CE;
+  border-radius: 10px;
+  margin: 5px;
+  padding: 5px 10px;
+}
+
+button:hover{
+  background-color: #6990E8;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+  color: #4173E4;
+  border: 2px solid #0945CE;
+}
+
+button a{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+  color: #4173E4;
+  text-shadow: 0px 1px 1px #6990E8;
+  text-decoration: none;
+}
+
+.container {
+  margin: 10px;
+  padding: 20px;
+  line-height: 5em;
+}
+
 .col-1 {
   float: left;
   width: 32%;
@@ -101,7 +146,7 @@ body {
   clear:both;
 }
 
-#color-box-1{
+#color-box-1 {
   position: absolute;
   top: 67px;
   right: 50px;
@@ -110,7 +155,7 @@ body {
   height: 100px;
 }
 
-#color-box-2{
+#color-box-2 {
   position: absolute;
   top: 67px;
   right: 158px;
@@ -119,7 +164,7 @@ body {
   height: 100px;
 }
 
-#color-box-3{
+#color-box-3 {
   position: absolute;
   top: 67px;
   right: 359px;
@@ -181,6 +226,7 @@ body {
   width: 27px;
   height: 268px;
 }
+
 /* navigation */
 nav ul {
     list-style-type: none;
@@ -205,23 +251,21 @@ nav li a:hover {
     color: #FFCB63;
 }
 
+/* specialized content containers */
 #tweet-content {
   border: 2px solid #008484;
   margin-top: 2px;
   padding: 5px 8px 5px 10px;
   overflow-y: scroll;
   height: 396px;
-  /*font-family: 'Open Sans', sans-serif;
-  font-size: 1.6em;*/
 }
 
-#tweet-content h2{
+#tweet-content h2 {
   font-family: 'Open Sans', sans-serif;
   color: #073293;
   font-size: 2em;
   margin-bottom: 5px;
 }
-
 
 #user-box {
   background-color: #FFAA63;
@@ -238,6 +282,20 @@ nav li a:hover {
   text-align: right;
 }
 
+#logo-box {
+  background-color: #FF7502;
+  border: 3px outset #FF9033;
+  padding: 15px;
+}
+
+#logo-box h1 {
+  font-family: 'Asul', sans-serif;
+  font-size: 6em;
+  color: #FF9033;
+  text-shadow: -4px 4px 4px #FFAA63;
+}
+
+/* footer */
 footer {
   background-color: #4173E4;
   border: 3px outset #0945CE;
@@ -252,73 +310,14 @@ footer h6 {
   color: #073293;
 }
 
-#logo-box {
-  background-color: #FF7502;
-  border: 3px outset #FF9033;
-  padding: 15px;
-}
-
-#logo-box h1 {
-  font-family: 'Asul', sans-serif;
-  font-size: 6em;
-  color: #FF9033;
-  text-shadow: -4px 4px 4px #FFAA63;
-}
-
-h1 {
-  font-family: 'Asul', sans-serif;
-  font-size: 5em;
-  color: #1956E2;
-}
-
-p {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 1.6em;
-  color: #000;
-}
-
-.container {
-  margin: 10px;
-  padding: 20px;
-  line-height: 5em;
-}
-
-button{
-  background-color: #073293;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 1em;
-  color: #4173E4;
-
-  border: 2px solid #0945CE;
-  border-radius: 10px;
-  margin: 5px;
-  padding: 5px 10px;
-}
-
-button:hover{
-  background-color: #6990E8;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 1em;
-  color: #4173E4;
-
-  border: 2px solid #0945CE;
-}
-
-button a{
-  font-family: 'Open Sans', sans-serif;
-  font-size: 1em;
-  color: #4173E4;
-  text-shadow: 0px 1px 1px #6990E8;
-  text-decoration: none;
-}
-
 /* Form styles */
-.form-container{
+.form-container {
   margin: 10px;
   padding: 20px;
   line-height: 1.5em;
 }
-.form-container h1{
+
+.form-container h1 {
   font-family: 'Asul', sans-serif;
   font-size: 3em;
   color: #1956E2;
@@ -326,20 +325,20 @@ button a{
   padding: 5px;
 }
 
-.form-container p{
+.form-container p {
   line-height: 1.5em;
   font-size: 0.9em;
 }
 
-input{
+input {
   font-size: 1em;
 }
 
-input:focus, input:hover{
+input:focus, input:hover {
   background-color: #FFCB63;
 }
 
-input#submit{
+input#submit {
   background-color: #073293;
   font-family: 'Open Sans', sans-serif;
   font-size: 1em;
@@ -350,7 +349,7 @@ input#submit{
   padding: 5px 10px;
 }
 
-input#submit:hover{
+input#submit:hover {
   background-color: #6990E8;
   font-family: 'Open Sans', sans-serif;
   font-size: 1em;
